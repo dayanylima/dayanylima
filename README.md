@@ -1,4 +1,4 @@
-<h1 align="left">👋 Olá, eu sou a Dayany Lima</h1>
+<h1 align="left">👋 Olá, eu sou Dayany Lima</h1>
 
 <p align="left">
   🎓 <strong>Bacharelado em Ciência da Computação</strong><br>
@@ -53,4 +53,3 @@
     <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/dayanylima/dayanylima/output/github-contribution-grid-snake.svg">
   </picture>
 </p>
-
