@@ -1,36 +1,45 @@
 name: Generate Snake Animation
 
 on:
-  # Executa sempre que você faz push na branch main
+  # Executa automaticamente todo dia à meia-noite
+  schedule:
+    - cron: "0 0 * * *"
+
+  # Permite rodar manualmente a qualquer momento
+  workflow_dispatch:
+
+  # Atualiza sempre que houver push na branch main
   push:
     branches:
       - main
-  # Permite rodar manualmente
-  workflow_dispatch:
 
 jobs:
   generate:
-    permissions: 
-      contents: write
+    permissions:
+      contents: write  # Necessário para publicar na branch de saída
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
     steps:
-      # Checa o repositório
+      # Passo 1: Clonar o repositório
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # Clona todo o histórico, necessário para pegar todos os commits
 
-      # Gera a cobrinha a partir dos commits da conta
-      - name: Generate GitHub Contribution Grid Snake
+      # Passo 2: Gerar a animação da cobrinha (SVG)
+      - name: Generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: dayanylima
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+          all_commits: true        # Garante percorrer todos os commits
+          private: true            # Inclui commits privados
 
-      # Publica os SVGs na branch 'output'
-      - name: Push generated SVGs to output branch
+      # Passo 3: Publicar a animação na branch "output"
+      - name: Push github-contribution-grid-snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
