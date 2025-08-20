@@ -1,16 +1,17 @@
 <h1 align="left">👋 Olá, eu sou Dayany Lima</h1>
 
 <p align="left">
-  🎓 <strong>Bacharelado em Ciência da Computação</strong><br>
-  💻 Foco em <strong>Back-end (Java & Spring Boot)</strong><br>
-  🗄️ Experiência com <strong>MySQL, PostgreSQL, Oracle</strong><br>
-  📊 Interesse crescente em <strong>Ciência e Análise de Dados</strong><br>
-  🌱 Sempre aprendendo e aberta a novas tecnologias<br>
+  🎓 Bacharelado em Ciência da Computação <br>
+  💻 Foco em <strong>Back-end (Java & Spring Boot)</strong> <br>
+  🗄️ Bancos de dados: <strong>MySQL, PostgreSQL, Oracle</strong> <br>
+  📊 Interesse crescente em <strong>Ciência e Análise de Dados</strong> <br>
+  🌱 Aprendizado contínuo e aberta a novas tecnologias <br>
+  🚀 Experiência com <strong>Robótica Educacional (Arduino)</strong> em projetos de extensão
 </p>
 
 ---
 
-### 📫 Onde me encontrar  
+### 📫 Onde me encontrar
 <p align="left">
   <a href="https://www.linkedin.com/in/dayanylima/" target="_blank">
     <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
