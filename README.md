@@ -1,16 +1,17 @@
-## Hi there 👋
+👋 Olá, eu sou Dayany Lima
 
-<!--
-**dayanylima/dayanylima** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🎓 Atualmente cursando Bacharelado em Ciência da Computação  
 
-Here are some ideas to get you started:
+💻 Foco em desenvolvimento Back-end (Java & Spring Boot)  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+🗄️ Conhecimento em bancos de dados relacionais (MySQL, PostgreSQL, Oracle)  
+
+📊 Interesse crescente em Ciência de Dados e Análise de Dados  
+
+🌱 Sempre em aprendizado contínuo e aberto a novas tecnologias  
+
+🚀 Trabalhei também com Robótica Educacional (Arduino) em projetos de extensão  
+
+📫 Como me encontrar:  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dayanylima/)  
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dayanyylima@gmail.com)
