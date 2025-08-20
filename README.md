@@ -6,7 +6,6 @@
   🗄️ Experiência com <strong>MySQL, PostgreSQL, Oracle</strong><br>
   📊 Interesse crescente em <strong>Ciência e Análise de Dados</strong><br>
   🌱 Sempre aprendendo e aberta a novas tecnologias<br>
-  🤖 Experiência em <strong>Robótica Educacional (Arduino)</strong> em projetos de extensão
 </p>
 
 ---
